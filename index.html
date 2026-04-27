@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranav Balokar — Aspiring Developer</title>
+  <meta name="description" content="Portfolio of Pranav Balokar — B.Tech IT student at MIT Alandi, Pune. Aspiring developer building real-world solutions with code and creativity." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icons (UMD build — exposes window.lucide) -->
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-mark">P</span>
+        Pranav<span class="dot">.</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+          <i data-lucide="sun" class="icon-sun"></i>
+          <i data-lucide="moon" class="icon-moon"></i>
+        </button>
+        <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Resume</a>
+        <a href="#contact" class="btn btn-primary">Hire Me</a>
+      </div>
+
+      <button id="menu-toggle" class="icon-btn nav-mobile-btn" aria-label="Open menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Resume</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-text reveal">
+        <span class="badge-status">
+          <span class="ping"><span></span><span></span></span>
+          Available for work
+        </span>
+
+        <h1 class="hero-title">
+          Pranav Balokar<br />
+          <span class="gradient-text">Aspiring Developer</span>
+        </h1>
+
+        <p class="hero-sub">
+          B.Tech IT student at MIT Alandi. Building real-world solutions through code and creativity.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary btn-lg">View Work</a>
+          <a href="#contact" class="btn btn-outline btn-lg">Contact</a>
+          <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-lg">
+            <i data-lucide="download"></i> Resume
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card-wrap reveal">
+        <div class="hero-card float">
+          <div class="hero-card-glow"></div>
+          <div class="avatar">
+            <img src="C:\C Tutorial\C Coding\Final_Portfolio\photo.png" alt="Pranav Balokar" />
+            <span class="avatar-spark"><i data-lucide="sparkles"></i></span>
+          </div>
+          <h3 class="hero-card-name">Pranav Balokar</h3>
+          <span class="hero-card-tag">B.Tech IT · MIT Alandi</span>
+
+          <span class="float-chip chip-tl"><i data-lucide="terminal"></i></span>
+          <span class="float-chip chip-br"><i data-lucide="monitor-smartphone"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section section-muted">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="eyebrow eyebrow-pink">Get to Know Me</span>
+        <h2 class="section-title">
+          Bridging <span class="gradient-text">Logic</span> &amp; <span class="gradient-text">Creativity</span>.
+        </h2>
+        <p class="lead">
+          Currently a <strong>B.Tech IT student at MIT Alandi, Pune</strong>. I focus on turning complex
+          technical challenges into simple, functional solutions.
+        </p>
+        <p class="lead">
+          Driven by the thrill of building things that actually matter in the real world.
+        </p>
+      </div>
+
+      <div class="about-cards reveal">
+        <div class="info-card">
+          <div class="info-icon icon-yellow"><i data-lucide="graduation-cap"></i></div>
+          <div>
+            <div class="info-label">Education</div>
+            <div class="info-value">MIT Alandi, Pune</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon icon-blue"><i data-lucide="map-pin"></i></div>
+          <div>
+            <div class="info-label">Base</div>
+            <div class="info-value">Pune, Maharashtra</div>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon icon-pink"><i data-lucide="briefcase"></i></div>
+          <div>
+            <div class="info-label">Status</div>
+            <div class="info-value">Open to Collaboration</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-title">Academics</h2>
+        <p class="section-sub">My educational journey and academic milestones.</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card stat-pink reveal">
+          <div class="stat-icon"><i data-lucide="cpu"></i></div>
+          <div class="stat-label">Branch</div>
+          <div class="stat-value">Information Technology</div>
+        </div>
+        <div class="stat-card stat-blue reveal">
+          <div class="stat-icon"><i data-lucide="book-open"></i></div>
+          <div class="stat-label">1st Semester CGPA</div>
+          <div class="stat-value">8.00 / 10</div>
+        </div>
+        <div class="stat-card stat-yellow reveal">
+          <div class="stat-icon"><i data-lucide="graduation-cap"></i></div>
+          <div class="stat-label">12th Grade</div>
+          <div class="stat-value">83%</div>
+        </div>
+        <div class="stat-card stat-green reveal">
+          <div class="stat-icon"><i data-lucide="check-circle"></i></div>
+          <div class="stat-label">10th Grade</div>
+          <div class="stat-value">90%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section section-muted">
+    <div class="container container-narrow">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-blue">Technologies &amp; Tools</span>
+        <h2 class="section-title">My Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill reveal" data-level="75">
+          <div class="skill-head"><span>Java</span><span>75%</span></div>
+          <div class="bar"><span class="bar-fill bar-pink"></span></div>
+        </div>
+        <div class="skill reveal" data-level="80">
+          <div class="skill-head"><span>Python</span><span>80%</span></div>
+          <div class="bar"><span class="bar-fill bar-blue"></span></div>
+        </div>
+        <div class="skill reveal" data-level="90">
+          <div class="skill-head"><span>HTML</span><span>90%</span></div>
+          <div class="bar"><span class="bar-fill bar-yellow"></span></div>
+        </div>
+        <div class="skill reveal" data-level="85">
+          <div class="skill-head"><span>CSS</span><span>85%</span></div>
+          <div class="bar"><span class="bar-fill bar-pink"></span></div>
+        </div>
+        <div class="skill reveal" data-level="80">
+          <div class="skill-head"><span>AI / ChatGPT</span><span>80%</span></div>
+          <div class="bar"><span class="bar-fill bar-blue"></span></div>
+        </div>
+        <div class="skill reveal" data-level="70">
+          <div class="skill-head"><span>Web Dev</span><span>70%</span></div>
+          <div class="bar"><span class="bar-fill bar-yellow"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-yellow">Featured Work</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+
+      <article class="project project-pink reveal">
+        <div class="project-num">01</div>
+        <div class="project-body">
+          <div class="project-icon"><i data-lucide="shield"></i></div>
+          <div class="project-content">
+            <h3 class="project-title">Surveillance Robot</h3>
+            <p class="project-desc">
+              A remote-controlled robotic car equipped with sensors, featuring smoke detection and
+              fire alarm systems for safety and monitoring applications.
+            </p>
+            <div class="tags">
+              <span class="tag">Hardware</span>
+              <span class="tag">Sensors</span>
+              <span class="tag">IoT</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="project project-blue project-reverse reveal">
+        <div class="project-num project-num-bl">02</div>
+        <div class="project-body">
+          <div class="project-icon icon-blue"><i data-lucide="navigation"></i></div>
+          <div class="project-content">
+            <h3 class="project-title">Dynamic Bus Rerouting System</h3>
+            <p class="project-desc">
+              A system designed to optimize and reroute buses dynamically, improving transportation
+              efficiency using smart algorithms.
+            </p>
+            <div class="tags">
+              <span class="tag">Java</span>
+              <span class="tag">Algorithms</span>
+              <span class="tag">Transport</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section section-muted">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-sub">Continuous learning and skill validation.</p>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card cert-pink reveal">
+          <div class="cert-icon"><i data-lucide="terminal"></i></div>
+          <div><h4>Python Essentials 1</h4><p>Cisco Academy</p></div>
+        </div>
+        <div class="cert-card cert-blue reveal">
+          <div class="cert-icon"><i data-lucide="code-2"></i></div>
+          <div><h4>Python Essentials 2</h4><p>Cisco Academy</p></div>
+        </div>
+        <div class="cert-card cert-yellow reveal">
+          <div class="cert-icon"><i data-lucide="sparkles"></i></div>
+          <div><h4>Anthropic Cert</h4><p>AI Integration</p></div>
+        </div>
+        <div class="cert-card cert-pink reveal">
+          <div class="cert-icon"><i data-lucide="globe"></i></div>
+          <div><h4>NASSCOM</h4><p>Tech Skills</p></div>
+        </div>
+        <div class="cert-card cert-blue reveal">
+          <div class="cert-icon"><i data-lucide="code-2"></i></div>
+          <div><h4>JavaScript</h4><p>Codecademy</p></div>
+        </div>
+        <div class="cert-card cert-yellow reveal">
+          <div class="cert-icon"><i data-lucide="briefcase"></i></div>
+          <div><h4>Career Prep</h4><p>LinkedIn Learning</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <h2 class="section-title">
+          Based in <span class="gradient-text">Pune</span>
+        </h2>
+        <p class="lead">Currently residing at MIT Academy of Engineering campus in Alandi.</p>
+        <p class="lead-strong">Alandi, Pune, MH, India</p>
+
+        <a class="map-card" href="https://maps.google.com/?q=MIT+Academy+of+Engineering+Alandi+Pune"
+           target="_blank" rel="noopener noreferrer">
+          <i data-lucide="map-pin" class="map-icon"></i>
+          <h3>MIT Academy of Engineering</h3>
+          <p>Alandi (D), Pune – 412105</p>
+          <span class="map-link">Open in Google Maps <i data-lucide="external-link"></i></span>
+        </a>
+      </div>
+
+      <div class="contact-card reveal">
+        <h2 class="section-title">Let's Connect</h2>
+
+        <div class="contact-quick">
+          <a href="mailto:pbalokar@gmail.com" class="quick-link">
+            <span class="quick-icon icon-pink"><i data-lucide="mail"></i></span>
+            <div>
+              <div class="quick-label">Email</div>
+              <div class="quick-value">pbalokar@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+918830827520" class="quick-link">
+            <span class="quick-icon icon-blue"><i data-lucide="phone"></i></span>
+            <div>
+              <div class="quick-label">Phone</div>
+              <div class="quick-value">+91 8830827520</div>
+            </div>
+          </a>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="John Doe" />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="john@example.com" />
+            </label>
+          </div>
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" rows="4" required placeholder="How can we work together?"></textarea>
+          </label>
+          <button type="submit" id="submit-btn" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+
+        <div class="resume-row">
+          <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-block">View Resume</a>
+          <a href="resume.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-block">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Thanks -->
+  <section class="section thanks-section">
+    <div class="container container-narrow">
+      <div class="thanks-card reveal">
+        <div class="thanks-glow thanks-glow-1"></div>
+        <div class="thanks-glow thanks-glow-2"></div>
+        <i data-lucide="heart" class="thanks-heart"></i>
+        <blockquote>
+          "Special thanks to my teacher, <strong>Vinayak Kulkarni</strong> — for the guidance, patience,
+          and belief that made all of this possible. This portfolio is dedicated to you, sir."
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/pranav-balokar-304753406/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="https://github.com/PranavBalokar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="https://www.instagram.com/pranav37735/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+      </div>
+      <p class="copyright">© 2026 Pranav Balokar. Built with passion.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
